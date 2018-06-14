@@ -47,9 +47,9 @@ userDialog.classList.remove('hidden');
 similarWizardContainer.classList.remove('hidden');
 
 function getRandomArrayElement(array) {
-   const randomNumber = Math.floor(Math.random() * (array.length));
-   return array[randomNumber];
- };
+  var randomNumber = Math.floor(Math.random() * (array.length));
+  return array[randomNumber];
+}
 
 
 var getRandomWizards = function (numberWizards) {
